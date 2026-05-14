@@ -1,5 +1,18 @@
-# Images are source assets and should not be ignored
-# No build artifacts, dependencies, or temp files detected in changes
-# Only preserving existing rules if any, but none provided
+```
+# Image optimization cache
+assets/images/optimized/
 
-# No rules needed for this project based on the file changes shown
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+```
